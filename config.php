@@ -1,0 +1,8 @@
+<?php
+
+
+define("LINKEDIN_API_KEY", "API KEY");
+define("LINKEDIN_API_SECRETE_KEY", "SECRETE KEY");
+define("LINKEDIN_CALLBACK_URL", "REDIRECT URL");
+
+?>
