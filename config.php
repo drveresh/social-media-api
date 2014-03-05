@@ -1,10 +1,11 @@
 <?php
+// Define the needed keys
+$strConsumerKey = "Your Consumer Key";
+$strConsumerSecret = "Your Consumer Secret Key";
+// The callback URL is the script that gets called after the user authenticates with tumblr
+// In this example, it would be the included callback.php
+$strCallbackUrl = "http://localhost/tumblrdemo/callback.php";
 
-/**
- * This is configuration file, which contain LinkedIn API keys.
- */
-define("LINKEDIN_API_KEY", "API KEY");
-define("LINKEDIN_API_SECRETE_KEY", "SECRETE KEY");
-define("LINKEDIN_CALLBACK_URL", "REDIRECT URL");
-
-?>
+define('CONSUMER_KEY', $strConsumerKey);
+define('CONSUMER_SECRET', $strConsumerSecret);
+define('CALLBACK', $strCallbackUrl);
